@@ -15,9 +15,9 @@ Add either Code 1 or 2 in wp-config.php before the line which says /* That's all
 Refer the video tutorial 
 
 Code 1: 
-define('AS3CF_AWS_ACCESS_KEY_ID','AKIAR6IS53MBXMA5OEZD');
+define('AS3CF_AWS_ACCESS_KEY_ID','*****************');
 
-define('AS3CF_AWS_SECRET_ACCESS_KEY','66dlVGpVHkHTgkdafi2aEePk1n9cl3KZEWVUuvhG');
+define('AS3CF_AWS_SECRET_ACCESS_KEY','*****************');
 
 
 Code 2 2: 
