@@ -7,7 +7,9 @@ sudo apt-get update
 ## install openjdk 8
 
 ```
-sudo apt install openjdk-8-jdk 
+sudo apt-get update && sudo apt-get upgrade -y 
+
+sudo apt-get install openjdk-11-jdk
 ``` 
 ## browser to local directory and download tomcat binary
 
