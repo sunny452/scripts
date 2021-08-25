@@ -4,13 +4,17 @@
 ``` 
 sudo apt-get update
 ``` 
-## install openjdk 8
+## install openjdk 11
 
 ```
 sudo apt-get update && sudo apt-get upgrade -y 
 
 sudo apt-get install openjdk-11-jdk
 ``` 
+### Alternatively, if you need JRE only then 
+
+sudo apt-get install openjdk-11-jre
+
 ## browser to local directory and download tomcat binary
 
 ``` 
