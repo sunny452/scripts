@@ -10,3 +10,10 @@ If error still exists, Go to environment variable > click PATH valiable > add be
 
 %USERPROFILE%\AppData\Roaming\npm
 %USERPROFILE%\AppData\Roaming\npm\node_modules\angular-cli\bin
+
+
+Error: Cannot find module '@angular/compiler-cli'
+
+rm -r node_modules
+npm cache clean --force
+install npm
