@@ -2,7 +2,9 @@
 
 Error 1:
 Caused by: com.amazonaws.services.dynamodbv2.model.AmazonDynamoDBException: The provided key element does not match the schema (Service: AmazonDynamoDBv2; Status Code: 400; 
-Fix: Partition key name is case sensitive. It's column name and data type match with the column in upload file. 
+Fix:1.1 Partition key name is case sensitive. It's column name and data type match with the column in upload file. 
+1.2 Make sure the value in number data type fields are within length 8
+
 
 Erroe 2: 
 Caused by: com.amazonaws.services.dynamodbv2.model.AmazonDynamoDBException: Supplied AttributeValue is empty, must contain exactly one of the supported datatypes (Service: AmazonDynamoDBv2; Status Code: 400;
