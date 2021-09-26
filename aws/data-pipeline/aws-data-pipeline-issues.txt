@@ -38,3 +38,14 @@ Number: “n”   NOT “N”
 -Once the pipeline is active the EMR instances take time. Check in EMR cluster. 
 -Do not forget to delete the pipeline and ensure EMR cluster is also terminated after you complete testing. Otherwise, it will continue charging. 
 
+sample data: policyid is partition key
+
+{"eq_site_limit":{"n":"78960"},"hu_site_limit":{"n":"7875678"},"policyid":{"n":"10006"},"line":{"s":"Commertial"},"county":{"s":"COUNTY 6"},"construction":{"s":"Reinforced Concrete"},"statecode":{"s":"BG"}}
+{"eq_site_limit":{"n":"68960"},"hu_site_limit":{"n":"2563"},"policyid":{"n":"10005"},"line":{"s":"Residential"},"county":{"s":"COUNTY 5"},"construction":{"s":"Masonry"},"statecode":{"s":"FL"}}
+{"eq_site_limit":{"n":"3232.67"},"hu_site_limit":{"n":"8234"},"policyid":{"n":"10007"},"line":{"s":"Commertial"},"county":{"s":"COUNTY 7"},"construction":{"s":"Reinforced Concrete"},"statecode":{"s":"NH"}}
+{"eq_site_limit":{"n":"66786877"},"hu_site_limit":{"n":"56498"},"policyid":{"n":"10008"},"line":{"s":"Residential"},"county":{"s":"COUNTY 8"},"construction":{"s":"Reinforced Concrete"},"statecode":{"s":"NA"}}
+{"eq_site_limit":{"n":"567560"},"hu_site_limit":{"n":"7875678"},"policyid":{"n":"10009"},"line":{"s":"Commertial"},"county":{"s":"COUNTY 6"},"construction":{"s":"Reinforced Concrete"},"statecode":{"s":"BG"}}
+{"eq_site_limit":{"n":"49450"},"hu_site_limit":{"n":"1322563"},"policyid":{"n":"10010"},"line":{"s":"Residential"},"county":{"s":"COUNTY 5"},"construction":{"s":"Masonry"},"statecode":{"s":"FL"}}
+{"eq_site_limit":{"n":"32.67"},"hu_site_limit":{"n":"9234"},"policyid":{"n":"10011"},"line":{"s":"Commertial"},"county":{"s":"COUNTY 7"},"construction":{"s":"Reinforced Concrete"},"statecode":{"s":"NH"}}
+{"eq_site_limit":{"n":"6677"},"hu_site_limit":{"n":"16498"},"policyid":{"n":"10012"},"line":{"s":"Residential"},"county":{"s":"COUNTY 8"},"construction":{"s":"Reinforced Concrete"},"statecode":{"s":"NA"}}
+
