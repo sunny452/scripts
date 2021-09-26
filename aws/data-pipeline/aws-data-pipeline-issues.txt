@@ -1,0 +1,30 @@
+
+
+Error 1:
+Caused by: com.amazonaws.services.dynamodbv2.model.AmazonDynamoDBException: The provided key element does not match the schema (Service: AmazonDynamoDBv2; Status Code: 400; 
+Fix: Partition key name is case sensitive. It's column name and data type match with the column in upload file. 
+
+Erroe 2: 
+Caused by: com.amazonaws.services.dynamodbv2.model.AmazonDynamoDBException: Supplied AttributeValue is empty, must contain exactly one of the supported datatypes (Service: AmazonDynamoDBv2; Status Code: 400;
+Fix: 2.1 Make sure you dont have any attribute/column value empty. 
+2.2 If you have all values present still getting the error it means you have wrong data type. Make sure String means "s" not "S", number means "n" not "N". make sure datatype is in small letter. 
+
+DynamoDB upload file format 
+{
+	"policyid": {
+		"n": "448094"
+	},
+	"eq_site_limit": {
+		"n": "190724.4"
+	},
+	"county": {
+		"s": "CLAY COUNTY"
+	},
+	"statecode": {
+		"s": "NK"
+	}
+}
+
+Important Note: Ensure data type format. 
+String : “s”       NOT “S”
+Number: “n”   NOT “N”
