@@ -28,3 +28,11 @@ DynamoDB upload file format
 Important Note: Ensure data type format. 
 String : “s”       NOT “S”
 Number: “n”   NOT “N”
+
+-DynamoDB table name is case sensitive.
+-Partition key is also case sensitive
+-The upload file in s3 should be in a directory. Point the directory not the file from data pipeline configuration.
+-Make sure your s3 file in proper format.
+-Once the pipeline is active the EMR instances take time. Check in EMR cluster. 
+-Do not forget to delete the pipeline and ensure EMR cluster is also terminated after you complete testing. Otherwise, it will continue charging. 
+
