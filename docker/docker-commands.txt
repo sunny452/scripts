@@ -1,8 +1,9 @@
-docker run <image name>
-docker ps
+docker run <image name> (run a docker image)
+docker ps 
 docker ps -a
 
 docker image ls (list available docker images)
+docker container ls (list running containers)
 
 docker -v  # check version
 docker stop <container name>
