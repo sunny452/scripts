@@ -1,7 +1,4 @@
 ## it is a lambda function in python to archive a file when it is dropped in an s3 bucket and read the file content. It is manly to read a small text file
-
-import json
-import csv
 import boto3
 import urllib
 
