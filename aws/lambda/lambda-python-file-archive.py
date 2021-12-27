@@ -8,7 +8,7 @@ import urllib
 def lambda_handler(event, context):
    s3_client =boto3.client('s3')
   
-   s3_archive_bucket="awstg12"
+   s3_archive_bucket="arc_bucket"
    
    bucket_name = event['Records'][0]['s3']['bucket']['name']
    key=event['Records'][0]['s3']['object']['key']
@@ -16,7 +16,7 @@ def lambda_handler(event, context):
    message=key + ' file uploaded ' + ' to bucket ' + bucket_name
    print(message)
    
-   response=s3_client.get_object(Bucket='awstg-s3-fileupload',Key=key)
+   response=s3_client.get_object(Bucket='s3fileupload',Key=key)
    contents= response["Body"].read().decode()
    print("file : \n",contents)
    
