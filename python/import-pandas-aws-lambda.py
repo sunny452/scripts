@@ -1,4 +1,5 @@
 # Follow the instruction to add layers in aws lambda to import pandas lib
+# Watch this tutorial https://youtu.be/lrEAu75zhNI
 # Pundas lib is not available in aws lambda by default. 
 
 import pandas as pd
