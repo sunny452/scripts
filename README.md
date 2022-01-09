@@ -1,5 +1,17 @@
 # Table of Contents for 'Script' repository
 
+# End to End Solution Architect tutorials
+
+https://www.youtube.com/channel/UC5Juuk7aTvbRmrABMq4onJA/videos
+
+# Visit e2e Solution Architect
+
+www.e2eSolutionArchitect.com
+
+# Coming Soon Data Insights Hub
+
+https://datainsightshub.com/
+
 # Online Tutorials
 DevOps - https://www.youtube.com/watch?v=1dwsr0v0FAg&list=PLuBBTh-4TzDlC1y8XEGH-PWPhvukSKChi
 
