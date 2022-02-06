@@ -5,7 +5,7 @@
 2. Check number of existing environment
    run >> conda env list
 
-output shouold look like below 
+output should look like below 
 (base) C:\Users\...>conda env list
 base                  *  C:\ProgramData\Anaconda3
 
