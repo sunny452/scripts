@@ -6,9 +6,7 @@
    run >> conda env list
 
 output shouold look like below 
-(base) C:\Users\snbha>conda env list
-# conda environments:
-#
+(base) C:\Users\...>conda env list
 base                  *  C:\ProgramData\Anaconda3
 
 It means only one env 'base' exist. 
