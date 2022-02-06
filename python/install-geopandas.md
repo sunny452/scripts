@@ -29,6 +29,6 @@ conda install geopandas
 Note: It may take few mins to process. So be patient
 It will listup all supporting packages. 
 
-Ultimately it will show "The following NEW packages will be INSTALLED:" followed by hundreds of packages. Just enter Y when it ask to proceed. 
+Ultimately it will show "The following NEW packages will be INSTALLED:" followed by hundreds of packages. Just enter Y when it asks to proceed or not. 
 
 During installation it may show "solving environment: failed with initial frozen solve. retrying with flexible solve. geopandas". Give it time to complete the process. 
