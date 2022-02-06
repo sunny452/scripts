@@ -10,6 +10,7 @@ output shouold look like below
 base                  *  C:\ProgramData\Anaconda3
 
 It means only one env 'base' exist. 
+
 3. check python version
    run >> python --version
 output will look like 'Python 3.7.6'
