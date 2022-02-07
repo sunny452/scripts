@@ -8,7 +8,7 @@ didnt resolve my plotly.express error.
 
 If you are using conda just run below command. 
 
-##conda install -c plotly plotly=4.8.1
+conda install -c plotly plotly=4.8.1
 
 Note: Run this in other than 'base' environment. 
 
